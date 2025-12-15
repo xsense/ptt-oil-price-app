@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <h1>CORS Test</h1>
+  <div id="result">Testing...</div>
+  <script>
+    const API_URL = 'https://orapiweb.pttor.com/oilservice/OilPrice.asmx';
+    const body = `<?xml version="1.0" encoding="utf-8"?>
+<soap12:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://www.w3.org/2003/05/soap-envelope">
+  <soap12:Body>
+    <CurrentOilPrice xmlns="http://www.pttor.com">
+      <Language>en</Language>
+    </CurrentOilPrice>
+  </soap12:Body>
+</soap12:Envelope>`;
+
+    fetch(API_URL, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/soap+xml; charset=utf-8',
+        },
+        body: body
+    })
+    .then(res => res.text())
+    .then(text => {
+        document.getElementById('result').innerText = 'Success: ' + text.substring(0, 100);
+    })
+    .catch(err => {
+        document.getElementById('result').innerText = 'Error: ' + err.message;
+    });
+  </script>
+</body>
+</html>
