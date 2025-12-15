@@ -1,11 +1,13 @@
 import type { NextConfig } from "next";
 
+const isProd = process.env.NODE_ENV === 'production';
+
 const nextConfig: NextConfig = {
   output: 'export',
   images: {
     unoptimized: true,
   },
-  // Optional: Add basePath if deploying to a subdirectory
-  // basePath: '/ptt-oil-price-app',
+  basePath: isProd ? '/ptt-oil-price-app' : '',
+  assetPrefix: isProd ? '/ptt-oil-price-app/' : '',
 };
 export default nextConfig;
