@@ -13,10 +13,8 @@ async function ProvincialContent({ searchParams }: ProvincialPageProps) {
     const lang = (Array.isArray(langParam) ? langParam[0] : langParam) === 'en' ? 'en' : 'th';
     const provinceName = typeof province === 'string' ? province : '';
 
-    // Pass lang to API? Wait, provincial calls usually TH only?
-    // Actually our new `getProvincialOilPrice` implementation will handle the special logic if we update it.
-    // We should pass `lang` so we can decide inside the client function OR just pass it here if we want translated UI.
-    const prices = provinceName ? await getProvincialOilPrice(provinceName) : [];
+    // Pass lang to API
+    const prices = provinceName ? await getProvincialOilPrice(provinceName, lang) : [];
 
     return (
         <div className="container relative z-10">

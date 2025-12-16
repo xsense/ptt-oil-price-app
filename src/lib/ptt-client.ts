@@ -150,7 +150,7 @@ import { VALID_PROVINCES } from './provinces';
 
 // ... (rest of the file until getProvincialOilPrice)
 
-export async function getProvincialOilPrice(province: string): Promise<OilPrice[]> {
+export async function getProvincialOilPrice(province: string, lang: 'th' | 'en' = 'th'): Promise<OilPrice[]> {
     const action = 'CurrentOilPriceProvincial';
 
     // Use mapped name if available, otherwise fallback to original
@@ -158,7 +158,7 @@ export async function getProvincialOilPrice(province: string): Promise<OilPrice[
     const apiProvinceName = VALID_PROVINCES[province as keyof typeof VALID_PROVINCES] || province;
 
     const body = `<CurrentOilPriceProvincial xmlns="http://www.pttor.com">
-      <Language>en</Language> 
+      <Language>${lang}</Language> 
       <Province>${apiProvinceName}</Province>
     </CurrentOilPriceProvincial>`;
 
