@@ -1,4 +1,3 @@
-```javascript
 'use client';
 
 import { useState, ChangeEvent } from 'react';
@@ -22,7 +21,7 @@ export default function ProvinceSelector() {
         setProvince(newProvince);
         if (newProvince) {
             setLoading(true);
-            router.push(`/ provincial ? lang = ${ lang }& province=${ newProvince } `);
+            router.push(`/ provincial ? lang = ${lang}& province=${newProvince} `);
             setTimeout(() => setLoading(false), 1000);
         }
     };
@@ -40,7 +39,7 @@ export default function ProvinceSelector() {
                     <span className="text-xs text-green-300 font-medium">Online</span>
                 </div>
             </div>
-            
+
             <div className="relative group">
                 <select
                     id="province-select"
@@ -51,12 +50,12 @@ export default function ProvinceSelector() {
                 >
                     <option value="" disabled>{lang === 'th' ? 'กรุณาเลือกจังหวัด...' : 'Choose a Province'}</option>
                     {provinceList.map((p) => {
-                         const displayName = lang === 'th' ? (PROVINCE_TH_MAP[p] || p) : p;
-                         return (
+                        const displayName = lang === 'th' ? (PROVINCE_TH_MAP[p] || p) : p;
+                        return (
                             <option key={p} value={p}>
                                 {displayName}
                             </option>
-                         );
+                        );
                     })}
                 </select>
                 <div className="absolute right-5 top-4 pointer-events-none text-white/30 group-hover:text-white transition-colors">
@@ -69,4 +68,3 @@ export default function ProvinceSelector() {
         </div>
     );
 }
-```
