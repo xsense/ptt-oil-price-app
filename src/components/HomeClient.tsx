@@ -30,7 +30,7 @@ export default function HomeClient({ initialPrices, currentLang }: HomeClientPro
             <div className="absolute top-[-20%] right-[-10%] w-[500px] h-[500px] bg-blue-600/20 rounded-full blur-[100px] pointer-events-none"></div>
             <div className="absolute bottom-[-10%] left-[-10%] w-[400px] h-[400px] bg-purple-600/20 rounded-full blur-[100px] pointer-events-none"></div>
 
-            <div className="absolute top-4 right-4 z-50">
+            <div className="fixed top-4 right-4 z-[100]">
                 <LanguageSwitcher />
             </div>
 

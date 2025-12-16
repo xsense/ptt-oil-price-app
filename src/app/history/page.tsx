@@ -3,6 +3,7 @@ import PriceCard from '@/components/PriceCard';
 import DateSelector from '@/components/DateSelector';
 import Link from 'next/link';
 import { Suspense } from 'react';
+import LanguageSwitcher from '@/components/LanguageSwitcher';
 
 interface HistoryPageProps {
     searchParams: Promise<{ [key: string]: string | string[] | undefined }>
@@ -29,9 +30,8 @@ async function HistoryContent({ searchParams }: HistoryPageProps) {
 
     return (
         <div className="container relative z-10">
-            <div className="absolute top-4 right-4 z-50">
-                {/* Ideally import LanguageSwitcher to allow switching here too */}
-                {/* But for now, user can back out. Or we add it. Let's add it consistently. */}
+            <div className="fixed top-4 right-4 z-[100]">
+                <LanguageSwitcher />
             </div>
             <div className="mb-8">
                 <Link href={`/?lang=${lang}`} className="text-gray-400 hover:text-white transition-colors flex items-center gap-2">

@@ -3,6 +3,7 @@ import PriceCard from '@/components/PriceCard';
 import ProvinceSelector from '@/components/ProvinceSelector';
 import Link from 'next/link';
 import { Suspense } from 'react';
+import LanguageSwitcher from '@/components/LanguageSwitcher';
 
 interface ProvincialPageProps {
     searchParams: Promise<{ [key: string]: string | string[] | undefined }>
@@ -18,8 +19,8 @@ async function ProvincialContent({ searchParams }: ProvincialPageProps) {
 
     return (
         <div className="container relative z-10">
-            <div className="absolute top-4 right-4 z-50">
-                {/* Optional: Add LanguageSwitcher */}
+            <div className="fixed top-4 right-4 z-[100]">
+                <LanguageSwitcher />
             </div>
             <div className="mb-8">
                 <Link href={`/?lang=${lang}`} className="text-gray-400 hover:text-white transition-colors flex items-center gap-2">
