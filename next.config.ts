@@ -1,13 +1,8 @@
 import type { NextConfig } from "next";
 
-const isProd = process.env.NODE_ENV === 'production';
+
 
 const nextConfig: NextConfig = {
-  output: 'export',
-  images: {
-    unoptimized: true,
-  },
-  basePath: isProd ? '/ptt-oil-price-app' : '',
-  assetPrefix: isProd ? '/ptt-oil-price-app/' : '',
+  // Vercel handles optimization and routing automatically
 };
 export default nextConfig;

@@ -43,7 +43,7 @@ async function fetchSoap(action: string, body: string) {
                     // Based on my debug, just Content-Type worked.
                 },
                 body: envelope,
-                cache: 'force-cache'
+                // cache: 'no-store' // Let Next.js handle caching via route config or defaults
             });
 
             if (!response.ok) {
