@@ -1,16 +1,24 @@
 import { getCurrentOilPrice } from '@/lib/ptt-client';
 import HomeClient from '@/components/HomeClient';
+import { Suspense } from 'react';
 
 export const revalidate = 60; // Revalidate every 1 minute
 
-export default async function Home() {
-    // Fetch both languages (SSR/ISR on Vercel)
-    const [thPrices, enPrices] = await Promise.all([
-        getCurrentOilPrice('th'),
-        getCurrentOilPrice('en')
-    ]);
+interface HomeProps {
+    searchParams: Promise<{ [key: string]: string | string[] | undefined }>
+}
+
+export default async function Home(props: HomeProps) {
+    const searchParams = await props.searchParams;
+    // Get lang from URL, default to 'th'
+    const lang = (searchParams?.lang === 'en' ? 'en' : 'th') as 'th' | 'en';
+
+    // Fetch prices in the requested language
+    const prices = await getCurrentOilPrice(lang);
 
     return (
-        <HomeClient initialPrices={{ th: thPrices, en: enPrices }} />
+        <Suspense fallback={<div className="text-center p-20 text-white">Loading...</div>}>
+            <HomeClient initialPrices={prices} currentLang={lang} />
+        </Suspense>
     );
 }

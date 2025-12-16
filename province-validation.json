@@ -1,0 +1,465 @@
+Checking provinces...
+Bangkok: FAIL
+Krabi: FAIL
+Kanchanaburi: FAIL
+Kalasin: FAIL
+Kamphaeng Phet: FAIL
+Khon Kaen: FAIL
+Chanthaburi: FAIL
+Chachoengsao: FAIL
+Chon Buri: FAIL
+Chainat: FAIL
+Chaiyaphum: FAIL
+Chumphon: FAIL
+Chiang Rai: FAIL
+Chiang Mai: FAIL
+Trang: FAIL
+Trat: FAIL
+Tak: FAIL
+Nakhon Nayok: FAIL
+Nakhon Pathom: FAIL
+Nakhon Phanom: FAIL
+Nakhon Ratchasima: FAIL
+Nakhon Si Thammarat: FAIL
+Nakhon Sawan: FAIL
+Nonthaburi: FAIL
+Narathiwat: FAIL
+Nan: FAIL
+Bueng Kan: FAIL
+Buriram: FAIL
+Pathum Thani: FAIL
+Prachuap Khiri Khan: FAIL
+Prachinburi: FAIL
+Pattani: FAIL
+Phra Nakhon Si Ayutthaya: FAIL
+Phayeo: FAIL
+Phang Nga: FAIL
+Phatthalung: FAIL
+Phichit: FAIL
+Phitsanulok: FAIL
+Phetchaburi: FAIL
+Phetchabun: FAIL
+Phrae: FAIL
+Phuket: FAIL
+Maha Sarakham: FAIL
+Mukdahan: FAIL
+Mae Hong Son: FAIL
+Yasothon: FAIL
+Yala: FAIL
+Roi Et: FAIL
+Ranong: FAIL
+Rayong: FAIL
+Ratchaburi: FAIL
+Lop Buri: FAIL
+Lampang: FAIL
+Lamphun: FAIL
+Loei: FAIL
+Sisaket: FAIL
+Sakon Nakhon: FAIL
+Songkhla: FAIL
+Satun: FAIL
+Samut Prakan: FAIL
+Samut Songkhram: FAIL
+Samut Sakhon: FAIL
+Sa Kaeo: FAIL
+Saraburi: FAIL
+Sing Buri: FAIL
+Sukhothai: FAIL
+Suphan Buri: FAIL
+Surat Thani: FAIL
+Surin: FAIL
+Nong Khai: FAIL
+Nong Bua Lam Phu: FAIL
+Ang Thong: FAIL
+Amnat Charoen: FAIL
+Udon Thani: FAIL
+Uttaradit: FAIL
+Uthai Thani: FAIL
+Ubon Ratchathani: FAIL
+[
+  {
+    "province": "Bangkok",
+    "valid": false,
+    "responseShort": "<?xml version='1.0' encoding='utf-8'?>\n<soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\" xmlns:xsi=\"https://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"https://www.w3.org/2001/XML"
+  },
+  {
+    "province": "Krabi",
+    "valid": false,
+    "responseShort": "<?xml version='1.0' encoding='utf-8'?>\n<soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\" xmlns:xsi=\"https://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"https://www.w3.org/2001/XML"
+  },
+  {
+    "province": "Kanchanaburi",
+    "valid": false,
+    "responseShort": "<?xml version='1.0' encoding='utf-8'?>\n<soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\" xmlns:xsi=\"https://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"https://www.w3.org/2001/XML"
+  },
+  {
+    "province": "Kalasin",
+    "valid": false,
+    "responseShort": "<?xml version='1.0' encoding='utf-8'?>\n<soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\" xmlns:xsi=\"https://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"https://www.w3.org/2001/XML"
+  },
+  {
+    "province": "Kamphaeng Phet",
+    "valid": false,
+    "responseShort": "<?xml version='1.0' encoding='utf-8'?>\n<soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\" xmlns:xsi=\"https://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"https://www.w3.org/2001/XML"
+  },
+  {
+    "province": "Khon Kaen",
+    "valid": false,
+    "responseShort": "<?xml version='1.0' encoding='utf-8'?>\n<soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\" xmlns:xsi=\"https://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"https://www.w3.org/2001/XML"
+  },
+  {
+    "province": "Chanthaburi",
+    "valid": false,
+    "responseShort": "<?xml version='1.0' encoding='utf-8'?>\n<soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\" xmlns:xsi=\"https://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"https://www.w3.org/2001/XML"
+  },
+  {
+    "province": "Chachoengsao",
+    "valid": false,
+    "responseShort": "<?xml version='1.0' encoding='utf-8'?>\n<soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\" xmlns:xsi=\"https://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"https://www.w3.org/2001/XML"
+  },
+  {
+    "province": "Chon Buri",
+    "valid": false,
+    "responseShort": "<?xml version='1.0' encoding='utf-8'?>\n<soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\" xmlns:xsi=\"https://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"https://www.w3.org/2001/XML"
+  },
+  {
+    "province": "Chainat",
+    "valid": false,
+    "responseShort": "<?xml version='1.0' encoding='utf-8'?>\n<soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\" xmlns:xsi=\"https://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"https://www.w3.org/2001/XML"
+  },
+  {
+    "province": "Chaiyaphum",
+    "valid": false,
+    "responseShort": "<?xml version='1.0' encoding='utf-8'?>\n<soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\" xmlns:xsi=\"https://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"https://www.w3.org/2001/XML"
+  },
+  {
+    "province": "Chumphon",
+    "valid": false,
+    "responseShort": "<?xml version='1.0' encoding='utf-8'?>\n<soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\" xmlns:xsi=\"https://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"https://www.w3.org/2001/XML"
+  },
+  {
+    "province": "Chiang Rai",
+    "valid": false,
+    "responseShort": "<?xml version='1.0' encoding='utf-8'?>\n<soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\" xmlns:xsi=\"https://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"https://www.w3.org/2001/XML"
+  },
+  {
+    "province": "Chiang Mai",
+    "valid": false,
+    "responseShort": "<?xml version='1.0' encoding='utf-8'?>\n<soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\" xmlns:xsi=\"https://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"https://www.w3.org/2001/XML"
+  },
+  {
+    "province": "Trang",
+    "valid": false,
+    "responseShort": "<?xml version='1.0' encoding='utf-8'?>\n<soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\" xmlns:xsi=\"https://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"https://www.w3.org/2001/XML"
+  },
+  {
+    "province": "Trat",
+    "valid": false,
+    "responseShort": "<?xml version='1.0' encoding='utf-8'?>\n<soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\" xmlns:xsi=\"https://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"https://www.w3.org/2001/XML"
+  },
+  {
+    "province": "Tak",
+    "valid": false,
+    "responseShort": "<?xml version='1.0' encoding='utf-8'?>\n<soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\" xmlns:xsi=\"https://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"https://www.w3.org/2001/XML"
+  },
+  {
+    "province": "Nakhon Nayok",
+    "valid": false,
+    "responseShort": "<?xml version='1.0' encoding='utf-8'?>\n<soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\" xmlns:xsi=\"https://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"https://www.w3.org/2001/XML"
+  },
+  {
+    "province": "Nakhon Pathom",
+    "valid": false,
+    "responseShort": "<?xml version='1.0' encoding='utf-8'?>\n<soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\" xmlns:xsi=\"https://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"https://www.w3.org/2001/XML"
+  },
+  {
+    "province": "Nakhon Phanom",
+    "valid": false,
+    "responseShort": "<?xml version='1.0' encoding='utf-8'?>\n<soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\" xmlns:xsi=\"https://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"https://www.w3.org/2001/XML"
+  },
+  {
+    "province": "Nakhon Ratchasima",
+    "valid": false,
+    "responseShort": "<?xml version='1.0' encoding='utf-8'?>\n<soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\" xmlns:xsi=\"https://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"https://www.w3.org/2001/XML"
+  },
+  {
+    "province": "Nakhon Si Thammarat",
+    "valid": false,
+    "responseShort": "<?xml version='1.0' encoding='utf-8'?>\n<soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\" xmlns:xsi=\"https://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"https://www.w3.org/2001/XML"
+  },
+  {
+    "province": "Nakhon Sawan",
+    "valid": false,
+    "responseShort": "<?xml version='1.0' encoding='utf-8'?>\n<soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\" xmlns:xsi=\"https://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"https://www.w3.org/2001/XML"
+  },
+  {
+    "province": "Nonthaburi",
+    "valid": false,
+    "responseShort": "<?xml version='1.0' encoding='utf-8'?>\n<soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\" xmlns:xsi=\"https://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"https://www.w3.org/2001/XML"
+  },
+  {
+    "province": "Narathiwat",
+    "valid": false,
+    "responseShort": "<?xml version='1.0' encoding='utf-8'?>\n<soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\" xmlns:xsi=\"https://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"https://www.w3.org/2001/XML"
+  },
+  {
+    "province": "Nan",
+    "valid": false,
+    "responseShort": "<?xml version='1.0' encoding='utf-8'?>\n<soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\" xmlns:xsi=\"https://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"https://www.w3.org/2001/XML"
+  },
+  {
+    "province": "Bueng Kan",
+    "valid": false,
+    "responseShort": "<?xml version='1.0' encoding='utf-8'?>\n<soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\" xmlns:xsi=\"https://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"https://www.w3.org/2001/XML"
+  },
+  {
+    "province": "Buriram",
+    "valid": false,
+    "responseShort": "<?xml version='1.0' encoding='utf-8'?>\n<soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\" xmlns:xsi=\"https://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"https://www.w3.org/2001/XML"
+  },
+  {
+    "province": "Pathum Thani",
+    "valid": false,
+    "responseShort": "<?xml version='1.0' encoding='utf-8'?>\n<soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\" xmlns:xsi=\"https://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"https://www.w3.org/2001/XML"
+  },
+  {
+    "province": "Prachuap Khiri Khan",
+    "valid": false,
+    "responseShort": "<?xml version='1.0' encoding='utf-8'?>\n<soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\" xmlns:xsi=\"https://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"https://www.w3.org/2001/XML"
+  },
+  {
+    "province": "Prachinburi",
+    "valid": false,
+    "responseShort": "<?xml version='1.0' encoding='utf-8'?>\n<soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\" xmlns:xsi=\"https://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"https://www.w3.org/2001/XML"
+  },
+  {
+    "province": "Pattani",
+    "valid": false,
+    "responseShort": "<?xml version='1.0' encoding='utf-8'?>\n<soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\" xmlns:xsi=\"https://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"https://www.w3.org/2001/XML"
+  },
+  {
+    "province": "Phra Nakhon Si Ayutthaya",
+    "valid": false,
+    "responseShort": "<?xml version='1.0' encoding='utf-8'?>\n<soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\" xmlns:xsi=\"https://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"https://www.w3.org/2001/XML"
+  },
+  {
+    "province": "Phayeo",
+    "valid": false,
+    "responseShort": "<?xml version='1.0' encoding='utf-8'?>\n<soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\" xmlns:xsi=\"https://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"https://www.w3.org/2001/XML"
+  },
+  {
+    "province": "Phang Nga",
+    "valid": false,
+    "responseShort": "<?xml version='1.0' encoding='utf-8'?>\n<soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\" xmlns:xsi=\"https://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"https://www.w3.org/2001/XML"
+  },
+  {
+    "province": "Phatthalung",
+    "valid": false,
+    "responseShort": "<?xml version='1.0' encoding='utf-8'?>\n<soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\" xmlns:xsi=\"https://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"https://www.w3.org/2001/XML"
+  },
+  {
+    "province": "Phichit",
+    "valid": false,
+    "responseShort": "<?xml version='1.0' encoding='utf-8'?>\n<soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\" xmlns:xsi=\"https://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"https://www.w3.org/2001/XML"
+  },
+  {
+    "province": "Phitsanulok",
+    "valid": false,
+    "responseShort": "<?xml version='1.0' encoding='utf-8'?>\n<soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\" xmlns:xsi=\"https://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"https://www.w3.org/2001/XML"
+  },
+  {
+    "province": "Phetchaburi",
+    "valid": false,
+    "responseShort": "<?xml version='1.0' encoding='utf-8'?>\n<soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\" xmlns:xsi=\"https://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"https://www.w3.org/2001/XML"
+  },
+  {
+    "province": "Phetchabun",
+    "valid": false,
+    "responseShort": "<?xml version='1.0' encoding='utf-8'?>\n<soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\" xmlns:xsi=\"https://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"https://www.w3.org/2001/XML"
+  },
+  {
+    "province": "Phrae",
+    "valid": false,
+    "responseShort": "<?xml version='1.0' encoding='utf-8'?>\n<soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\" xmlns:xsi=\"https://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"https://www.w3.org/2001/XML"
+  },
+  {
+    "province": "Phuket",
+    "valid": false,
+    "responseShort": "<?xml version='1.0' encoding='utf-8'?>\n<soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\" xmlns:xsi=\"https://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"https://www.w3.org/2001/XML"
+  },
+  {
+    "province": "Maha Sarakham",
+    "valid": false,
+    "responseShort": "<?xml version='1.0' encoding='utf-8'?>\n<soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\" xmlns:xsi=\"https://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"https://www.w3.org/2001/XML"
+  },
+  {
+    "province": "Mukdahan",
+    "valid": false,
+    "responseShort": "<?xml version='1.0' encoding='utf-8'?>\n<soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\" xmlns:xsi=\"https://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"https://www.w3.org/2001/XML"
+  },
+  {
+    "province": "Mae Hong Son",
+    "valid": false,
+    "responseShort": "<?xml version='1.0' encoding='utf-8'?>\n<soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\" xmlns:xsi=\"https://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"https://www.w3.org/2001/XML"
+  },
+  {
+    "province": "Yasothon",
+    "valid": false,
+    "responseShort": "<?xml version='1.0' encoding='utf-8'?>\n<soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\" xmlns:xsi=\"https://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"https://www.w3.org/2001/XML"
+  },
+  {
+    "province": "Yala",
+    "valid": false,
+    "responseShort": "<?xml version='1.0' encoding='utf-8'?>\n<soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\" xmlns:xsi=\"https://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"https://www.w3.org/2001/XML"
+  },
+  {
+    "province": "Roi Et",
+    "valid": false,
+    "responseShort": "<?xml version='1.0' encoding='utf-8'?>\n<soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\" xmlns:xsi=\"https://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"https://www.w3.org/2001/XML"
+  },
+  {
+    "province": "Ranong",
+    "valid": false,
+    "responseShort": "<?xml version='1.0' encoding='utf-8'?>\n<soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\" xmlns:xsi=\"https://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"https://www.w3.org/2001/XML"
+  },
+  {
+    "province": "Rayong",
+    "valid": false,
+    "responseShort": "<?xml version='1.0' encoding='utf-8'?>\n<soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\" xmlns:xsi=\"https://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"https://www.w3.org/2001/XML"
+  },
+  {
+    "province": "Ratchaburi",
+    "valid": false,
+    "responseShort": "<?xml version='1.0' encoding='utf-8'?>\n<soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\" xmlns:xsi=\"https://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"https://www.w3.org/2001/XML"
+  },
+  {
+    "province": "Lop Buri",
+    "valid": false,
+    "responseShort": "<?xml version='1.0' encoding='utf-8'?>\n<soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\" xmlns:xsi=\"https://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"https://www.w3.org/2001/XML"
+  },
+  {
+    "province": "Lampang",
+    "valid": false,
+    "responseShort": "<?xml version='1.0' encoding='utf-8'?>\n<soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\" xmlns:xsi=\"https://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"https://www.w3.org/2001/XML"
+  },
+  {
+    "province": "Lamphun",
+    "valid": false,
+    "responseShort": "<?xml version='1.0' encoding='utf-8'?>\n<soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\" xmlns:xsi=\"https://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"https://www.w3.org/2001/XML"
+  },
+  {
+    "province": "Loei",
+    "valid": false,
+    "responseShort": "<?xml version='1.0' encoding='utf-8'?>\n<soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\" xmlns:xsi=\"https://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"https://www.w3.org/2001/XML"
+  },
+  {
+    "province": "Sisaket",
+    "valid": false,
+    "responseShort": "<?xml version='1.0' encoding='utf-8'?>\n<soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\" xmlns:xsi=\"https://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"https://www.w3.org/2001/XML"
+  },
+  {
+    "province": "Sakon Nakhon",
+    "valid": false,
+    "responseShort": "<?xml version='1.0' encoding='utf-8'?>\n<soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\" xmlns:xsi=\"https://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"https://www.w3.org/2001/XML"
+  },
+  {
+    "province": "Songkhla",
+    "valid": false,
+    "responseShort": "<?xml version='1.0' encoding='utf-8'?>\n<soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\" xmlns:xsi=\"https://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"https://www.w3.org/2001/XML"
+  },
+  {
+    "province": "Satun",
+    "valid": false,
+    "responseShort": "<?xml version='1.0' encoding='utf-8'?>\n<soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\" xmlns:xsi=\"https://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"https://www.w3.org/2001/XML"
+  },
+  {
+    "province": "Samut Prakan",
+    "valid": false,
+    "responseShort": "<?xml version='1.0' encoding='utf-8'?>\n<soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\" xmlns:xsi=\"https://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"https://www.w3.org/2001/XML"
+  },
+  {
+    "province": "Samut Songkhram",
+    "valid": false,
+    "responseShort": "<?xml version='1.0' encoding='utf-8'?>\n<soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\" xmlns:xsi=\"https://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"https://www.w3.org/2001/XML"
+  },
+  {
+    "province": "Samut Sakhon",
+    "valid": false,
+    "responseShort": "<?xml version='1.0' encoding='utf-8'?>\n<soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\" xmlns:xsi=\"https://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"https://www.w3.org/2001/XML"
+  },
+  {
+    "province": "Sa Kaeo",
+    "valid": false,
+    "responseShort": "<?xml version='1.0' encoding='utf-8'?>\n<soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\" xmlns:xsi=\"https://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"https://www.w3.org/2001/XML"
+  },
+  {
+    "province": "Saraburi",
+    "valid": false,
+    "responseShort": "<?xml version='1.0' encoding='utf-8'?>\n<soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\" xmlns:xsi=\"https://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"https://www.w3.org/2001/XML"
+  },
+  {
+    "province": "Sing Buri",
+    "valid": false,
+    "responseShort": "<?xml version='1.0' encoding='utf-8'?>\n<soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\" xmlns:xsi=\"https://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"https://www.w3.org/2001/XML"
+  },
+  {
+    "province": "Sukhothai",
+    "valid": false,
+    "responseShort": "<?xml version='1.0' encoding='utf-8'?>\n<soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\" xmlns:xsi=\"https://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"https://www.w3.org/2001/XML"
+  },
+  {
+    "province": "Suphan Buri",
+    "valid": false,
+    "responseShort": "<?xml version='1.0' encoding='utf-8'?>\n<soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\" xmlns:xsi=\"https://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"https://www.w3.org/2001/XML"
+  },
+  {
+    "province": "Surat Thani",
+    "valid": false,
+    "responseShort": "<?xml version='1.0' encoding='utf-8'?>\n<soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\" xmlns:xsi=\"https://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"https://www.w3.org/2001/XML"
+  },
+  {
+    "province": "Surin",
+    "valid": false,
+    "responseShort": "<?xml version='1.0' encoding='utf-8'?>\n<soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\" xmlns:xsi=\"https://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"https://www.w3.org/2001/XML"
+  },
+  {
+    "province": "Nong Khai",
+    "valid": false,
+    "responseShort": "<?xml version='1.0' encoding='utf-8'?>\n<soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\" xmlns:xsi=\"https://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"https://www.w3.org/2001/XML"
+  },
+  {
+    "province": "Nong Bua Lam Phu",
+    "valid": false,
+    "responseShort": "<?xml version='1.0' encoding='utf-8'?>\n<soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\" xmlns:xsi=\"https://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"https://www.w3.org/2001/XML"
+  },
+  {
+    "province": "Ang Thong",
+    "valid": false,
+    "responseShort": "<?xml version='1.0' encoding='utf-8'?>\n<soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\" xmlns:xsi=\"https://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"https://www.w3.org/2001/XML"
+  },
+  {
+    "province": "Amnat Charoen",
+    "valid": false,
+    "responseShort": "<?xml version='1.0' encoding='utf-8'?>\n<soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\" xmlns:xsi=\"https://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"https://www.w3.org/2001/XML"
+  },
+  {
+    "province": "Udon Thani",
+    "valid": false,
+    "responseShort": "<?xml version='1.0' encoding='utf-8'?>\n<soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\" xmlns:xsi=\"https://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"https://www.w3.org/2001/XML"
+  },
+  {
+    "province": "Uttaradit",
+    "valid": false,
+    "responseShort": "<?xml version='1.0' encoding='utf-8'?>\n<soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\" xmlns:xsi=\"https://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"https://www.w3.org/2001/XML"
+  },
+  {
+    "province": "Uthai Thani",
+    "valid": false,
+    "responseShort": "<?xml version='1.0' encoding='utf-8'?>\n<soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\" xmlns:xsi=\"https://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"https://www.w3.org/2001/XML"
+  },
+  {
+    "province": "Ubon Ratchathani",
+    "valid": false,
+    "responseShort": "<?xml version='1.0' encoding='utf-8'?>\n<soap:Envelope xmlns:soap=\"http://www.w3.org/2003/05/soap-envelope\" xmlns:xsi=\"https://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"https://www.w3.org/2001/XML"
+  }
+]

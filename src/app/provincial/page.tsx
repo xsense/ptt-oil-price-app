@@ -9,16 +9,23 @@ interface ProvincialPageProps {
 }
 
 async function ProvincialContent({ searchParams }: ProvincialPageProps) {
-    const { province } = await searchParams;
+    const { province, lang: langParam } = await searchParams;
+    const lang = (Array.isArray(langParam) ? langParam[0] : langParam) === 'en' ? 'en' : 'th';
     const provinceName = typeof province === 'string' ? province : '';
 
+    // Pass lang to API? Wait, provincial calls usually TH only?
+    // Actually our new `getProvincialOilPrice` implementation will handle the special logic if we update it.
+    // We should pass `lang` so we can decide inside the client function OR just pass it here if we want translated UI.
     const prices = provinceName ? await getProvincialOilPrice(provinceName) : [];
 
     return (
         <div className="container relative z-10">
+            <div className="absolute top-4 right-4 z-50">
+                {/* Optional: Add LanguageSwitcher */}
+            </div>
             <div className="mb-8">
-                <Link href="/" className="text-gray-400 hover:text-white transition-colors flex items-center gap-2">
-                    ← Back to Home
+                <Link href={`/?lang=${lang}`} className="text-gray-400 hover:text-white transition-colors flex items-center gap-2">
+                    ← {lang === 'th' ? 'กลับไปหน้าหลัก' : 'Back to Home'}
                 </Link>
             </div>
 

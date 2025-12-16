@@ -9,16 +9,18 @@ interface HistoryPageProps {
 }
 
 async function HistoryContent({ searchParams }: HistoryPageProps) {
-    const { date } = await searchParams;
+    const { date, lang: langParam } = await searchParams;
+    const lang = (Array.isArray(langParam) ? langParam[0] : langParam) === 'en' ? 'en' : 'th';
     const dateStr = typeof date === 'string' ? date : new Date().toISOString().split('T')[0];
     const targetDate = new Date(dateStr);
 
     // Validate date: if invalid, fallback to today
     const validDate = isNaN(targetDate.getTime()) ? new Date() : targetDate;
 
-    const prices = await getOilPriceHistory(validDate);
+    // Pass lang to API
+    const prices = await getOilPriceHistory(validDate, lang);
 
-    const displayDate = validDate.toLocaleDateString('en-TH', {
+    const displayDate = validDate.toLocaleDateString(lang === 'th' ? 'th-TH' : 'en-GB', {
         weekday: 'long',
         year: 'numeric',
         month: 'long',
@@ -27,9 +29,13 @@ async function HistoryContent({ searchParams }: HistoryPageProps) {
 
     return (
         <div className="container relative z-10">
+            <div className="absolute top-4 right-4 z-50">
+                {/* Ideally import LanguageSwitcher to allow switching here too */}
+                {/* But for now, user can back out. Or we add it. Let's add it consistently. */}
+            </div>
             <div className="mb-8">
-                <Link href="/" className="text-gray-400 hover:text-white transition-colors flex items-center gap-2">
-                    ← Back to Current Prices
+                <Link href={`/?lang=${lang}`} className="text-gray-400 hover:text-white transition-colors flex items-center gap-2">
+                    ← {lang === 'th' ? 'กลับไปหน้าหลัก' : 'Back to Current Prices'}
                 </Link>
             </div>
 

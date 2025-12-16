@@ -146,11 +146,20 @@ export async function getOilPriceHistory(date: Date, lang: 'th' | 'en' = 'th'): 
     }
 }
 
+import { VALID_PROVINCES } from './provinces';
+
+// ... (rest of the file until getProvincialOilPrice)
+
 export async function getProvincialOilPrice(province: string): Promise<OilPrice[]> {
     const action = 'CurrentOilPriceProvincial';
+
+    // Use mapped name if available, otherwise fallback to original
+    // This allows UI to show "Chon Buri" but send "ChonBuri"
+    const apiProvinceName = VALID_PROVINCES[province as keyof typeof VALID_PROVINCES] || province;
+
     const body = `<CurrentOilPriceProvincial xmlns="http://www.pttor.com">
-      <Language>th</Language>
-      <Province>${province}</Province>
+      <Language>en</Language> 
+      <Province>${apiProvinceName}</Province>
     </CurrentOilPriceProvincial>`;
 
     try {

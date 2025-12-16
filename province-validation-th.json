@@ -1,0 +1,418 @@
+Validating provinces (English input for Thai output)...
+Bangkok: FAIL
+Krabi: FAIL
+Kanchanaburi: FAIL
+Kalasin: FAIL
+Kamphaeng Phet: FAIL
+Khon Kaen: FAIL
+Chanthaburi: FAIL
+Chachoengsao: FAIL
+Chon Buri: FAIL
+Chainat: FAIL
+Chaiyaphum: FAIL
+Chumphon: FAIL
+Chiang Rai: FAIL
+Chiang Mai: FAIL
+Trang: FAIL
+Trat: FAIL
+Tak: FAIL
+Nakhon Nayok: FAIL
+Nakhon Pathom: FAIL
+Nakhon Phanom: FAIL
+Nakhon Ratchasima: FAIL
+Nakhon Si Thammarat: FAIL
+Nakhon Sawan: FAIL
+Nonthaburi: FAIL
+Narathiwat: FAIL
+Nan: FAIL
+Bueng Kan: FAIL
+Buriram: FAIL
+Pathum Thani: FAIL
+Prachuap Khiri Khan: FAIL
+Prachinburi: FAIL
+Pattani: FAIL
+Phra Nakhon Si Ayutthaya: FAIL
+Phayeo: FAIL
+Phang Nga: FAIL
+Phatthalung: FAIL
+Phichit: FAIL
+Phitsanulok: FAIL
+Phetchaburi: FAIL
+Phetchabun: FAIL
+Phrae: FAIL
+Phuket: FAIL
+Maha Sarakham: FAIL
+Mukdahan: FAIL
+Mae Hong Son: FAIL
+Yasothon: FAIL
+Yala: FAIL
+Roi Et: FAIL
+Ranong: FAIL
+Rayong: FAIL
+Ratchaburi: FAIL
+Lop Buri: FAIL
+Lampang: FAIL
+Lamphun: FAIL
+Loei: FAIL
+Sisaket: FAIL
+Sakon Nakhon: FAIL
+Songkhla: FAIL
+Satun: FAIL
+Samut Prakan: FAIL
+Samut Songkhram: FAIL
+Samut Sakhon: FAIL
+Sa Kaeo: FAIL
+Saraburi: FAIL
+Sing Buri: FAIL
+Sukhothai: FAIL
+Suphan Buri: FAIL
+Surat Thani: FAIL
+Surin: FAIL
+Nong Khai: FAIL
+Nong Bua Lam Phu: FAIL
+Ang Thong: FAIL
+Amnat Charoen: FAIL
+Udon Thani: FAIL
+Uttaradit: FAIL
+Uthai Thani: FAIL
+Ubon Ratchathani: FAIL
+Chonburi: FAIL
+Lopburi: FAIL
+Saraburi: FAIL
+Singburi: FAIL
+Suphanburi: FAIL
+Prachin Buri: FAIL
+[
+  {
+    "province": "Bangkok",
+    "valid": false
+  },
+  {
+    "province": "Krabi",
+    "valid": false
+  },
+  {
+    "province": "Kanchanaburi",
+    "valid": false
+  },
+  {
+    "province": "Kalasin",
+    "valid": false
+  },
+  {
+    "province": "Kamphaeng Phet",
+    "valid": false
+  },
+  {
+    "province": "Khon Kaen",
+    "valid": false
+  },
+  {
+    "province": "Chanthaburi",
+    "valid": false
+  },
+  {
+    "province": "Chachoengsao",
+    "valid": false
+  },
+  {
+    "province": "Chon Buri",
+    "valid": false
+  },
+  {
+    "province": "Chainat",
+    "valid": false
+  },
+  {
+    "province": "Chaiyaphum",
+    "valid": false
+  },
+  {
+    "province": "Chumphon",
+    "valid": false
+  },
+  {
+    "province": "Chiang Rai",
+    "valid": false
+  },
+  {
+    "province": "Chiang Mai",
+    "valid": false
+  },
+  {
+    "province": "Trang",
+    "valid": false
+  },
+  {
+    "province": "Trat",
+    "valid": false
+  },
+  {
+    "province": "Tak",
+    "valid": false
+  },
+  {
+    "province": "Nakhon Nayok",
+    "valid": false
+  },
+  {
+    "province": "Nakhon Pathom",
+    "valid": false
+  },
+  {
+    "province": "Nakhon Phanom",
+    "valid": false
+  },
+  {
+    "province": "Nakhon Ratchasima",
+    "valid": false
+  },
+  {
+    "province": "Nakhon Si Thammarat",
+    "valid": false
+  },
+  {
+    "province": "Nakhon Sawan",
+    "valid": false
+  },
+  {
+    "province": "Nonthaburi",
+    "valid": false
+  },
+  {
+    "province": "Narathiwat",
+    "valid": false
+  },
+  {
+    "province": "Nan",
+    "valid": false
+  },
+  {
+    "province": "Bueng Kan",
+    "valid": false
+  },
+  {
+    "province": "Buriram",
+    "valid": false
+  },
+  {
+    "province": "Pathum Thani",
+    "valid": false
+  },
+  {
+    "province": "Prachuap Khiri Khan",
+    "valid": false
+  },
+  {
+    "province": "Prachinburi",
+    "valid": false
+  },
+  {
+    "province": "Pattani",
+    "valid": false
+  },
+  {
+    "province": "Phra Nakhon Si Ayutthaya",
+    "valid": false
+  },
+  {
+    "province": "Phayeo",
+    "valid": false
+  },
+  {
+    "province": "Phang Nga",
+    "valid": false
+  },
+  {
+    "province": "Phatthalung",
+    "valid": false
+  },
+  {
+    "province": "Phichit",
+    "valid": false
+  },
+  {
+    "province": "Phitsanulok",
+    "valid": false
+  },
+  {
+    "province": "Phetchaburi",
+    "valid": false
+  },
+  {
+    "province": "Phetchabun",
+    "valid": false
+  },
+  {
+    "province": "Phrae",
+    "valid": false
+  },
+  {
+    "province": "Phuket",
+    "valid": false
+  },
+  {
+    "province": "Maha Sarakham",
+    "valid": false
+  },
+  {
+    "province": "Mukdahan",
+    "valid": false
+  },
+  {
+    "province": "Mae Hong Son",
+    "valid": false
+  },
+  {
+    "province": "Yasothon",
+    "valid": false
+  },
+  {
+    "province": "Yala",
+    "valid": false
+  },
+  {
+    "province": "Roi Et",
+    "valid": false
+  },
+  {
+    "province": "Ranong",
+    "valid": false
+  },
+  {
+    "province": "Rayong",
+    "valid": false
+  },
+  {
+    "province": "Ratchaburi",
+    "valid": false
+  },
+  {
+    "province": "Lop Buri",
+    "valid": false
+  },
+  {
+    "province": "Lampang",
+    "valid": false
+  },
+  {
+    "province": "Lamphun",
+    "valid": false
+  },
+  {
+    "province": "Loei",
+    "valid": false
+  },
+  {
+    "province": "Sisaket",
+    "valid": false
+  },
+  {
+    "province": "Sakon Nakhon",
+    "valid": false
+  },
+  {
+    "province": "Songkhla",
+    "valid": false
+  },
+  {
+    "province": "Satun",
+    "valid": false
+  },
+  {
+    "province": "Samut Prakan",
+    "valid": false
+  },
+  {
+    "province": "Samut Songkhram",
+    "valid": false
+  },
+  {
+    "province": "Samut Sakhon",
+    "valid": false
+  },
+  {
+    "province": "Sa Kaeo",
+    "valid": false
+  },
+  {
+    "province": "Saraburi",
+    "valid": false
+  },
+  {
+    "province": "Sing Buri",
+    "valid": false
+  },
+  {
+    "province": "Sukhothai",
+    "valid": false
+  },
+  {
+    "province": "Suphan Buri",
+    "valid": false
+  },
+  {
+    "province": "Surat Thani",
+    "valid": false
+  },
+  {
+    "province": "Surin",
+    "valid": false
+  },
+  {
+    "province": "Nong Khai",
+    "valid": false
+  },
+  {
+    "province": "Nong Bua Lam Phu",
+    "valid": false
+  },
+  {
+    "province": "Ang Thong",
+    "valid": false
+  },
+  {
+    "province": "Amnat Charoen",
+    "valid": false
+  },
+  {
+    "province": "Udon Thani",
+    "valid": false
+  },
+  {
+    "province": "Uttaradit",
+    "valid": false
+  },
+  {
+    "province": "Uthai Thani",
+    "valid": false
+  },
+  {
+    "province": "Ubon Ratchathani",
+    "valid": false
+  },
+  {
+    "province": "Chonburi",
+    "valid": false
+  },
+  {
+    "province": "Lopburi",
+    "valid": false
+  },
+  {
+    "province": "Saraburi",
+    "valid": false
+  },
+  {
+    "province": "Singburi",
+    "valid": false
+  },
+  {
+    "province": "Suphanburi",
+    "valid": false
+  },
+  {
+    "province": "Prachin Buri",
+    "valid": false
+  }
+]

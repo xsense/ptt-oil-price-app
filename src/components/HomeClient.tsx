@@ -3,25 +3,19 @@
 import { OilPrice } from '@/lib/ptt-client';
 import PriceCard from '@/components/PriceCard';
 import Link from 'next/link';
-import { useLanguage } from '@/context/LanguageContext';
 import LanguageSwitcher from './LanguageSwitcher';
-import { useEffect, useState } from 'react';
 
 interface HomeClientProps {
-    initialPrices: {
-        th: OilPrice[];
-        en: OilPrice[];
-    };
+    initialPrices: OilPrice[];
+    currentLang: 'th' | 'en';
 }
 
-export default function HomeClient({ initialPrices }: HomeClientProps) {
-    const { language, t } = useLanguage();
-    const [prices, setPrices] = useState<OilPrice[]>(initialPrices.th);
+export default function HomeClient({ initialPrices, currentLang }: HomeClientProps) {
+    const prices = initialPrices;
+    const language = currentLang;
 
-    // Update prices when language changes
-    useEffect(() => {
-        setPrices(initialPrices[language]);
-    }, [language, initialPrices]);
+    // Helper for simple translations (since we removed the context)
+    const t = (th: string, en: string) => (language === 'th' ? th : en);
 
     const today = new Date().toLocaleDateString(language === 'th' ? 'th-TH' : 'en-GB', {
         weekday: 'long',
@@ -70,13 +64,13 @@ export default function HomeClient({ initialPrices }: HomeClientProps) {
 
                 <div className="mt-16 text-center animate-fade-in flex flex-col md:flex-row gap-4 justify-center" style={{ animationDelay: '0.8s' }}>
                     <Link
-                        href="/history"
+                        href={`/history?lang=${language}`}
                         className="inline-block px-8 py-4 rounded-full glass hover:bg-white/20 transition-all font-medium text-lg"
                     >
                         {t('ดูราคาย้อนหลัง →', 'View Price History →')}
                     </Link>
                     <Link
-                        href="/provincial"
+                        href={`/provincial?lang=${language}`}
                         className="inline-block px-8 py-4 rounded-full border border-white/20 hover:bg-white/10 transition-all font-medium text-lg text-gold"
                     >
                         {t('เช็คราคาต่างจังหวัด →', 'Check Provincial Price →')}

@@ -1,6 +1,8 @@
 import type { Metadata } from 'next';
+import { Inter } from 'next/font/google';
 import './globals.css';
-import Providers from '@/components/Providers';
+
+const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
     title: 'PTT Oil Price Premium',
@@ -14,12 +16,8 @@ export default function RootLayout({
 }) {
     return (
         <html lang="en">
-            <body className="relative min-h-screen p-4 sm:p-8">
-                <Providers>
-                    <main className="max-w-7xl mx-auto">
-                        {children}
-                    </main>
-                </Providers>
+            <body className={`${inter.className} min-h-screen bg-[#0f172a] text-white selection:bg-blue-500/30`}>
+                {children}
             </body>
         </html>
     );

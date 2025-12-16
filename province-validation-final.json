@@ -1,0 +1,591 @@
+Validating provinces with alternate spellings...
+Processed 5/113
+Processed 10/113
+Processed 15/113
+Processed 20/113
+Processed 25/113
+Processed 30/113
+Processed 35/113
+Processed 40/113
+Processed 45/113
+Processed 50/113
+Processed 55/113
+Processed 60/113
+Processed 65/113
+Processed 70/113
+Processed 75/113
+Processed 80/113
+Processed 85/113
+Processed 90/113
+Processed 95/113
+Processed 100/113
+Processed 105/113
+Processed 110/113
+Processed 113/113
+[
+  {
+    "province": "Bangkok",
+    "sent": "Bangkok",
+    "valid": false
+  },
+  {
+    "province": "Bangkok",
+    "sent": "Bangkok Metropolis",
+    "valid": false
+  },
+  {
+    "province": "Krabi",
+    "sent": "Krabi",
+    "valid": false
+  },
+  {
+    "province": "Kanchanaburi",
+    "sent": "Kanchanaburi",
+    "valid": false
+  },
+  {
+    "province": "Kalasin",
+    "sent": "Kalasin",
+    "valid": false
+  },
+  {
+    "province": "Kamphaeng Phet",
+    "sent": "Kamphaeng Phet",
+    "valid": false
+  },
+  {
+    "province": "Kamphaeng Phet",
+    "sent": "KamphaengPhet",
+    "valid": false
+  },
+  {
+    "province": "Khon Kaen",
+    "sent": "Khon Kaen",
+    "valid": false
+  },
+  {
+    "province": "Khon Kaen",
+    "sent": "KhonKaen",
+    "valid": false
+  },
+  {
+    "province": "Chanthaburi",
+    "sent": "Chanthaburi",
+    "valid": false
+  },
+  {
+    "province": "Chachoengsao",
+    "sent": "Chachoengsao",
+    "valid": false
+  },
+  {
+    "province": "Chon Buri",
+    "sent": "Chon Buri",
+    "valid": false
+  },
+  {
+    "province": "Chon Buri",
+    "sent": "ChonBuri",
+    "valid": false
+  },
+  {
+    "province": "Chainat",
+    "sent": "Chainat",
+    "valid": false
+  },
+  {
+    "province": "Chaiyaphum",
+    "sent": "Chaiyaphum",
+    "valid": false
+  },
+  {
+    "province": "Chumphon",
+    "sent": "Chumphon",
+    "valid": false
+  },
+  {
+    "province": "Chiang Rai",
+    "sent": "Chiang Rai",
+    "valid": false
+  },
+  {
+    "province": "Chiang Rai",
+    "sent": "ChiangRai",
+    "valid": false
+  },
+  {
+    "province": "Chiang Mai",
+    "sent": "Chiang Mai",
+    "valid": false
+  },
+  {
+    "province": "Chiang Mai",
+    "sent": "ChiangMai",
+    "valid": false
+  },
+  {
+    "province": "Trang",
+    "sent": "Trang",
+    "valid": false
+  },
+  {
+    "province": "Trat",
+    "sent": "Trat",
+    "valid": false
+  },
+  {
+    "province": "Tak",
+    "sent": "Tak",
+    "valid": false
+  },
+  {
+    "province": "Nakhon Nayok",
+    "sent": "Nakhon Nayok",
+    "valid": false
+  },
+  {
+    "province": "Nakhon Nayok",
+    "sent": "NakhonNayok",
+    "valid": false
+  },
+  {
+    "province": "Nakhon Pathom",
+    "sent": "Nakhon Pathom",
+    "valid": false
+  },
+  {
+    "province": "Nakhon Pathom",
+    "sent": "NakhonPathom",
+    "valid": false
+  },
+  {
+    "province": "Nakhon Phanom",
+    "sent": "Nakhon Phanom",
+    "valid": false
+  },
+  {
+    "province": "Nakhon Phanom",
+    "sent": "NakhonPhanom",
+    "valid": false
+  },
+  {
+    "province": "Nakhon Ratchasima",
+    "sent": "Nakhon Ratchasima",
+    "valid": false
+  },
+  {
+    "province": "Nakhon Ratchasima",
+    "sent": "NakhonRatchasima",
+    "valid": false
+  },
+  {
+    "province": "Nakhon Si Thammarat",
+    "sent": "Nakhon Si Thammarat",
+    "valid": false
+  },
+  {
+    "province": "Nakhon Si Thammarat",
+    "sent": "NakhonSiThammarat",
+    "valid": false
+  },
+  {
+    "province": "Nakhon Sawan",
+    "sent": "Nakhon Sawan",
+    "valid": false
+  },
+  {
+    "province": "Nakhon Sawan",
+    "sent": "NakhonSawan",
+    "valid": false
+  },
+  {
+    "province": "Nonthaburi",
+    "sent": "Nonthaburi",
+    "valid": false
+  },
+  {
+    "province": "Narathiwat",
+    "sent": "Narathiwat",
+    "valid": false
+  },
+  {
+    "province": "Nan",
+    "sent": "Nan",
+    "valid": false
+  },
+  {
+    "province": "Bueng Kan",
+    "sent": "Bueng Kan",
+    "valid": false
+  },
+  {
+    "province": "Bueng Kan",
+    "sent": "BuengKan",
+    "valid": false
+  },
+  {
+    "province": "Buriram",
+    "sent": "Buriram",
+    "valid": false
+  },
+  {
+    "province": "Pathum Thani",
+    "sent": "Pathum Thani",
+    "valid": false
+  },
+  {
+    "province": "Pathum Thani",
+    "sent": "PathumThani",
+    "valid": false
+  },
+  {
+    "province": "Prachuap Khiri Khan",
+    "sent": "Prachuap Khiri Khan",
+    "valid": false
+  },
+  {
+    "province": "Prachuap Khiri Khan",
+    "sent": "PrachuapKhiriKhan",
+    "valid": false
+  },
+  {
+    "province": "Prachinburi",
+    "sent": "Prachinburi",
+    "valid": false
+  },
+  {
+    "province": "Pattani",
+    "sent": "Pattani",
+    "valid": false
+  },
+  {
+    "province": "Phra Nakhon Si Ayutthaya",
+    "sent": "Phra Nakhon Si Ayutthaya",
+    "valid": false
+  },
+  {
+    "province": "Phra Nakhon Si Ayutthaya",
+    "sent": "PhraNakhonSiAyutthaya",
+    "valid": false
+  },
+  {
+    "province": "Phayeo",
+    "sent": "Phayeo",
+    "valid": false
+  },
+  {
+    "province": "Phang Nga",
+    "sent": "Phang Nga",
+    "valid": false
+  },
+  {
+    "province": "Phang Nga",
+    "sent": "PhangNga",
+    "valid": false
+  },
+  {
+    "province": "Phatthalung",
+    "sent": "Phatthalung",
+    "valid": false
+  },
+  {
+    "province": "Phichit",
+    "sent": "Phichit",
+    "valid": false
+  },
+  {
+    "province": "Phitsanulok",
+    "sent": "Phitsanulok",
+    "valid": false
+  },
+  {
+    "province": "Phetchaburi",
+    "sent": "Phetchaburi",
+    "valid": false
+  },
+  {
+    "province": "Phetchabun",
+    "sent": "Phetchabun",
+    "valid": false
+  },
+  {
+    "province": "Phrae",
+    "sent": "Phrae",
+    "valid": false
+  },
+  {
+    "province": "Phuket",
+    "sent": "Phuket",
+    "valid": false
+  },
+  {
+    "province": "Maha Sarakham",
+    "sent": "Maha Sarakham",
+    "valid": false
+  },
+  {
+    "province": "Maha Sarakham",
+    "sent": "MahaSarakham",
+    "valid": false
+  },
+  {
+    "province": "Mukdahan",
+    "sent": "Mukdahan",
+    "valid": false
+  },
+  {
+    "province": "Mae Hong Son",
+    "sent": "Mae Hong Son",
+    "valid": false
+  },
+  {
+    "province": "Mae Hong Son",
+    "sent": "MaeHongSon",
+    "valid": false
+  },
+  {
+    "province": "Yasothon",
+    "sent": "Yasothon",
+    "valid": false
+  },
+  {
+    "province": "Yala",
+    "sent": "Yala",
+    "valid": false
+  },
+  {
+    "province": "Roi Et",
+    "sent": "Roi Et",
+    "valid": false
+  },
+  {
+    "province": "Roi Et",
+    "sent": "RoiEt",
+    "valid": false
+  },
+  {
+    "province": "Ranong",
+    "sent": "Ranong",
+    "valid": false
+  },
+  {
+    "province": "Rayong",
+    "sent": "Rayong",
+    "valid": false
+  },
+  {
+    "province": "Ratchaburi",
+    "sent": "Ratchaburi",
+    "valid": false
+  },
+  {
+    "province": "Lop Buri",
+    "sent": "Lop Buri",
+    "valid": false
+  },
+  {
+    "province": "Lop Buri",
+    "sent": "LopBuri",
+    "valid": false
+  },
+  {
+    "province": "Lampang",
+    "sent": "Lampang",
+    "valid": false
+  },
+  {
+    "province": "Lamphun",
+    "sent": "Lamphun",
+    "valid": false
+  },
+  {
+    "province": "Loei",
+    "sent": "Loei",
+    "valid": false
+  },
+  {
+    "province": "Sisaket",
+    "sent": "Sisaket",
+    "valid": false
+  },
+  {
+    "province": "Sakon Nakhon",
+    "sent": "Sakon Nakhon",
+    "valid": false
+  },
+  {
+    "province": "Sakon Nakhon",
+    "sent": "SakonNakhon",
+    "valid": false
+  },
+  {
+    "province": "Songkhla",
+    "sent": "Songkhla",
+    "valid": false
+  },
+  {
+    "province": "Satun",
+    "sent": "Satun",
+    "valid": false
+  },
+  {
+    "province": "Samut Prakan",
+    "sent": "Samut Prakan",
+    "valid": false
+  },
+  {
+    "province": "Samut Prakan",
+    "sent": "SamutPrakan",
+    "valid": false
+  },
+  {
+    "province": "Samut Songkhram",
+    "sent": "Samut Songkhram",
+    "valid": false
+  },
+  {
+    "province": "Samut Songkhram",
+    "sent": "SamutSongkhram",
+    "valid": false
+  },
+  {
+    "province": "Samut Sakhon",
+    "sent": "Samut Sakhon",
+    "valid": false
+  },
+  {
+    "province": "Samut Sakhon",
+    "sent": "SamutSakhon",
+    "valid": false
+  },
+  {
+    "province": "Sa Kaeo",
+    "sent": "Sa Kaeo",
+    "valid": false
+  },
+  {
+    "province": "Sa Kaeo",
+    "sent": "SaKaeo",
+    "valid": false
+  },
+  {
+    "province": "Saraburi",
+    "sent": "Saraburi",
+    "valid": false
+  },
+  {
+    "province": "Sing Buri",
+    "sent": "Sing Buri",
+    "valid": false
+  },
+  {
+    "province": "Sing Buri",
+    "sent": "SingBuri",
+    "valid": false
+  },
+  {
+    "province": "Sukhothai",
+    "sent": "Sukhothai",
+    "valid": false
+  },
+  {
+    "province": "Suphan Buri",
+    "sent": "Suphan Buri",
+    "valid": false
+  },
+  {
+    "province": "Suphan Buri",
+    "sent": "SuphanBuri",
+    "valid": false
+  },
+  {
+    "province": "Surat Thani",
+    "sent": "Surat Thani",
+    "valid": false
+  },
+  {
+    "province": "Surat Thani",
+    "sent": "SuratThani",
+    "valid": false
+  },
+  {
+    "province": "Surin",
+    "sent": "Surin",
+    "valid": false
+  },
+  {
+    "province": "Nong Khai",
+    "sent": "Nong Khai",
+    "valid": false
+  },
+  {
+    "province": "Nong Khai",
+    "sent": "NongKhai",
+    "valid": false
+  },
+  {
+    "province": "Nong Bua Lam Phu",
+    "sent": "Nong Bua Lam Phu",
+    "valid": false
+  },
+  {
+    "province": "Nong Bua Lam Phu",
+    "sent": "NongBuaLamPhu",
+    "valid": false
+  },
+  {
+    "province": "Ang Thong",
+    "sent": "Ang Thong",
+    "valid": false
+  },
+  {
+    "province": "Ang Thong",
+    "sent": "AngThong",
+    "valid": false
+  },
+  {
+    "province": "Amnat Charoen",
+    "sent": "Amnat Charoen",
+    "valid": false
+  },
+  {
+    "province": "Amnat Charoen",
+    "sent": "AmnatCharoen",
+    "valid": false
+  },
+  {
+    "province": "Udon Thani",
+    "sent": "Udon Thani",
+    "valid": false
+  },
+  {
+    "province": "Udon Thani",
+    "sent": "UdonThani",
+    "valid": false
+  },
+  {
+    "province": "Uttaradit",
+    "sent": "Uttaradit",
+    "valid": false
+  },
+  {
+    "province": "Uthai Thani",
+    "sent": "Uthai Thani",
+    "valid": false
+  },
+  {
+    "province": "Uthai Thani",
+    "sent": "UthaiThani",
+    "valid": false
+  },
+  {
+    "province": "Ubon Ratchathani",
+    "sent": "Ubon Ratchathani",
+    "valid": false
+  },
+  {
+    "province": "Ubon Ratchathani",
+    "sent": "UbonRatchathani",
+    "valid": false
+  }
+]
