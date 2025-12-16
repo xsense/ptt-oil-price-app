@@ -22,7 +22,7 @@ export default function RootLayout({
         <html lang="en">
             <body className={`${inter.className} min-h-screen bg-[#0f172a] text-white selection:bg-blue-500/30`}>
                 <Navbar />
-                <main className="pt-20">
+                <main className="pt-24">
                     {children}
                 </main>
             </body>

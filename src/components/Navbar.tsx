@@ -12,8 +12,8 @@ export default function Navbar() {
     const isHome = pathname === '/';
 
     return (
-        <nav className="fixed top-0 left-0 right-0 z-50 bg-black/10 backdrop-blur-lg border-b border-white/5">
-            <div className="container mx-auto px-4 h-16 flex items-center justify-between">
+        <nav className="fixed top-0 left-0 right-0 z-50 bg-[#0f172a]/80 backdrop-blur-md border-b border-white/10 pointer-events-none">
+            <div className="container mx-auto px-4 h-16 flex items-center justify-between pointer-events-auto">
                 {/* Left Side: Logo or Back Button */}
                 <div className="flex items-center">
                     {isHome ? (
