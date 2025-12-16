@@ -9,6 +9,10 @@ export const metadata: Metadata = {
     description: 'Real-time oil prices from PTT OR',
 };
 
+import Navbar from '@/components/Navbar';
+
+// ...
+
 export default function RootLayout({
     children,
 }: {
@@ -17,7 +21,10 @@ export default function RootLayout({
     return (
         <html lang="en">
             <body className={`${inter.className} min-h-screen bg-[#0f172a] text-white selection:bg-blue-500/30`}>
-                {children}
+                <Navbar />
+                <main className="pt-20">
+                    {children}
+                </main>
             </body>
         </html>
     );

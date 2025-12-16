@@ -30,13 +30,8 @@ async function HistoryContent({ searchParams }: HistoryPageProps) {
 
     return (
         <div className="container relative z-10">
-            <div className="fixed top-4 right-4 z-[100]">
-                <LanguageSwitcher />
-            </div>
-            <div className="mb-8">
-                <Link href={`/?lang=${lang}`} className="text-gray-400 hover:text-white transition-colors flex items-center gap-2">
-                    ← {lang === 'th' ? 'กลับไปหน้าหลัก' : 'Back to Current Prices'}
-                </Link>
+            <div className="mb-4">
+                {/* Spacer if needed, or rely on layout padding */}
             </div>
 
             <header className="text-center mb-8 animate-fade-in">

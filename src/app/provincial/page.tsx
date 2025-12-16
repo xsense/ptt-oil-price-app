@@ -19,21 +19,16 @@ async function ProvincialContent({ searchParams }: ProvincialPageProps) {
 
     return (
         <div className="container relative z-10">
-            <div className="fixed top-4 right-4 z-[100]">
-                <LanguageSwitcher />
-            </div>
-            <div className="mb-8">
-                <Link href={`/?lang=${lang}`} className="text-gray-400 hover:text-white transition-colors flex items-center gap-2">
-                    ← {lang === 'th' ? 'กลับไปหน้าหลัก' : 'Back to Home'}
-                </Link>
+            <div className="mb-4">
+                {/* Spacer */}
             </div>
 
             <header className="text-center mb-8 animate-fade-in">
                 <h1 className="text-4xl md:text-5xl font-bold mb-4">
-                    Provincial Prices
+                    {lang === 'th' ? 'ราคาน้ำมันรายจังหวัด' : 'Provincial Prices'}
                 </h1>
                 <p className="text-xl text-gold font-light">
-                    {provinceName || "Select a location"}
+                    {provinceName || (lang === 'th' ? "เลือกสถานที่" : "Select a location")}
                 </p>
             </header>
 
@@ -41,45 +36,47 @@ async function ProvincialContent({ searchParams }: ProvincialPageProps) {
                 <ProvinceSelector />
             </Suspense>
 
-            {!provinceName ? (
-                <div className="text-center text-gray-500 mt-10 animate-fade-in">
-                    Please select a province to view oil prices.
-                </div>
-            ) : prices.length === 0 ? (
-                <div className="text-center text-gray-400 glass p-12 max-w-2xl mx-auto animate-fade-in">
-                    <p className="mb-2 text-xl">No data available for {provinceName}.</p>
-                    <p className="text-sm opacity-60">Try selecting a different province or check your connection.</p>
-                </div>
-            ) : (
-                <div className="space-y-12">
-                    {Object.entries(
-                        prices.reduce((acc, price) => {
-                            const loc = price.LOCATION || 'General';
-                            if (!acc[loc]) acc[loc] = [];
-                            acc[loc].push(price);
-                            return acc;
-                        }, {} as Record<string, typeof prices>)
-                    ).sort(([a], [b]) => a.localeCompare(b)).map(([location, locationPrices], locIndex) => (
-                        <section key={location} className="animate-fade-in" style={{ animationDelay: `${locIndex * 100}ms` }}>
-                            <h2 className="text-2xl font-semibold mb-6 text-white border-b border-white/10 pb-2 inline-block">
-                                {location}
-                            </h2>
-                            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-                                {locationPrices.map((fuel, index) => (
-                                    <PriceCard
-                                        key={`${fuel.PRODUCT}-${fuel.LOCATION}-${index}`}
-                                        product={fuel.PRODUCT}
-                                        price={fuel.PRICE}
-                                        location={fuel.LOCATION} // Redundant if grouped
-                                        delay={index * 50}
-                                    />
-                                ))}
-                            </div>
-                        </section>
-                    ))}
-                </div>
-            )}
-        </div>
+            {
+                !provinceName ? (
+                    <div className="text-center text-gray-500 mt-10 animate-fade-in">
+                        Please select a province to view oil prices.
+                    </div>
+                ) : prices.length === 0 ? (
+                    <div className="text-center text-gray-400 glass p-12 max-w-2xl mx-auto animate-fade-in">
+                        <p className="mb-2 text-xl">No data available for {provinceName}.</p>
+                        <p className="text-sm opacity-60">Try selecting a different province or check your connection.</p>
+                    </div>
+                ) : (
+                    <div className="space-y-12">
+                        {Object.entries(
+                            prices.reduce((acc, price) => {
+                                const loc = price.LOCATION || 'General';
+                                if (!acc[loc]) acc[loc] = [];
+                                acc[loc].push(price);
+                                return acc;
+                            }, {} as Record<string, typeof prices>)
+                        ).sort(([a], [b]) => a.localeCompare(b)).map(([location, locationPrices], locIndex) => (
+                            <section key={location} className="animate-fade-in" style={{ animationDelay: `${locIndex * 100}ms` }}>
+                                <h2 className="text-2xl font-semibold mb-6 text-white border-b border-white/10 pb-2 inline-block">
+                                    {location}
+                                </h2>
+                                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+                                    {locationPrices.map((fuel, index) => (
+                                        <PriceCard
+                                            key={`${fuel.PRODUCT}-${fuel.LOCATION}-${index}`}
+                                            product={fuel.PRODUCT}
+                                            price={fuel.PRICE}
+                                            location={fuel.LOCATION} // Redundant if grouped
+                                            delay={index * 50}
+                                        />
+                                    ))}
+                                </div>
+                            </section>
+                        ))}
+                    </div>
+                )
+            }
+        </div >
     );
 }
 
