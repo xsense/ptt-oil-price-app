@@ -21,7 +21,7 @@ export default function ProvinceSelector() {
         setProvince(newProvince);
         if (newProvince) {
             setLoading(true);
-            router.push(`/ provincial ? lang = ${lang}& province=${newProvince} `);
+            router.push(`/provincial?lang=${lang}&province=${newProvince}`);
             setTimeout(() => setLoading(false), 1000);
         }
     };
