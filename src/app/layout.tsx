@@ -10,6 +10,7 @@ export const metadata: Metadata = {
 };
 
 import Navbar from '@/components/Navbar';
+import { Suspense } from 'react';
 
 // ...
 
@@ -21,7 +22,9 @@ export default function RootLayout({
     return (
         <html lang="en">
             <body className={`${inter.className} min-h-screen bg-[#0f172a] text-white selection:bg-blue-500/30`}>
-                <Navbar />
+                <Suspense fallback={<nav className="fixed top-0 left-0 right-0 z-50 h-16 bg-[#0f172a]/80 backdrop-blur-md border-b border-white/10" />}>
+                    <Navbar />
+                </Suspense>
                 <main className="pt-24">
                     {children}
                 </main>
